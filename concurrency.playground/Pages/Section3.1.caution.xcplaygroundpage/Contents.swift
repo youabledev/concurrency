@@ -71,3 +71,22 @@ func asyncLognTask(_ a: String, runQueue: DispatchQueue, completionQueue: Dispat
         }
     }
 }
+
+//DispatchQueue.global().async { [weak self] in
+//    DispatchQueue.main.async {
+//    // => 따로 명시하지 않아도 여기서도 weak self로 정의됨
+//    }
+//}
+
+
+/// # ARC (Automatic Reference Counting)
+///
+/// 1) 객체(클래스의 인스턴스)
+///     - 변수를 weak, unowned로 선언
+///
+/// 2) 클로저
+///     - strong reference에서 클로저를 실행할 때 RC +1 -> 클로저 실행이 끝나야 RC -1 되어 메모리에서 제거
+///     - 클로저의 캡처리스트내에서 weak, unowned로 선언
+///
+/// => 인스턴스를 참조하되 RC가 올라가지 않게 하므로 강한 참조 사이클이 일어나지 않음
+/// +) heap and stack memory
