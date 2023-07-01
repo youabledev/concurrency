@@ -5,5 +5,6 @@
         <page name='Section2.1.GCD'/>
         <page name='Section3.1.caution'/>
         <page name='Section4.1.Basic'/>
+        <page name='Section4.2.AsyncDispatchGroup'/>
     </pages>
 </playground>
