@@ -8,6 +8,8 @@
         <page name='Section4.2.AsyncDispatchGroup'/>
         <page name='Section4.3.DispatchWorkItem'/>
         <page name='Section4.4.Semaphore'/>
-        <page name='Section6.1.Concurrency Problems'/>
+        <page name='Section6.Concurrency Problems'/>
+        <page name='Section7.1.TScan'/>
+        <page name='Section7.2.SerialQueue and Sync'/>
     </pages>
 </playground>
