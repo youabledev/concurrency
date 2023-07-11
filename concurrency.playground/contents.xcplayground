@@ -11,5 +11,6 @@
         <page name='Section6.Concurrency Problems'/>
         <page name='Section7.1.TScan'/>
         <page name='Section7.2.SerialQueue and Sync'/>
+        <page name='Section7.3.DispatchBarrier'/>
     </pages>
 </playground>
