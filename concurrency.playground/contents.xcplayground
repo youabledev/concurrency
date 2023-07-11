@@ -12,5 +12,6 @@
         <page name='Section7.1.TScan'/>
         <page name='Section7.2.SerialQueue and Sync'/>
         <page name='Section7.3.DispatchBarrier'/>
+        <page name='Section8.Lazy Var'/>
     </pages>
 </playground>
