@@ -13,5 +13,6 @@
         <page name='Section7.2.SerialQueue and Sync'/>
         <page name='Section7.3.DispatchBarrier'/>
         <page name='Section8.Lazy Var'/>
+        <page name='Section10.1.Operation OT'/>
     </pages>
 </playground>
