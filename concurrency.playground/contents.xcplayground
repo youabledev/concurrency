@@ -14,5 +14,6 @@
         <page name='Section7.3.DispatchBarrier'/>
         <page name='Section8.Lazy Var'/>
         <page name='Section10.Operation'/>
+        <page name='Section10.2.OperationQueue'/>
     </pages>
 </playground>
